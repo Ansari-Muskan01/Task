@@ -1,0 +1,54 @@
+Database Fundamentals, DBMS, RDBMS, SQL Commands and Constraints
+
+Section A – Theory Questions
+
+1- What is Data?
+2- What is a Database?
+3- What is a Database Management System (DBMS)?
+4- What is a Relational Database Management System (RDBMS)?
+5- What is the difference between DBMS and RDBMS?
+6- What is SQL?
+7- What are the advantages of using a Database?
+8- What are the advantages of using DBMS?
+9- What are the advantages of using RDBMS?
+10- What is a Table in a Database?
+11- What is a Record in a Database?
+12- What is a Field in a Database?
+13- What is a Primary Key?
+14- What is a Foreign Key?
+15- What is a Constraint in SQL?
+16- What are the different types of SQL Constraints?
+17- What is the purpose of the PRIMARY KEY constraint?
+18- What is the purpose of the FOREIGN KEY constraint?
+19- What is the purpose of the NOT NULL constraint?
+20- What is the purpose of the UNIQUE constraint?
+21- What is the purpose of the CHECK constraint?
+22- What is the purpose of the DEFAULT constraint?
+23- What are SQL Commands?
+24- What is DDL? Name the commands included in DDL.
+25- What is DML? Name the commands included in DML.
+26- What is DQL? Which command is used in DQL?
+27- What is the difference between DELETE, DROP and TRUNCATE?
+29- What is the difference between PRIMARY KEY and UNIQUE KEY?
+
+
+Section B – SQL Practical Questions
+
+1- Write an SQL query to create a database named CustomerDB.
+2- Write an SQL query to select the CustomerDB database.
+3- Write an SQL query to create a Customers table with the following columns: Customer_ID, Customer_Name, Email, Phone, City, and Age. Apply appropriate data types and constraints to the columns.
+4- Write SQL queries to insert at least 5 records into the Customers table.
+5- Write an SQL query to display all records from the Customers table.
+6- Write an SQL query to display only the Customer_Name, Email, and City columns from the Customers table.
+7- Write an SQL query to update the city of a customer using Customer_ID.
+8- Write an SQL query to delete a customer using Customer_ID.
+9- Write an SQL query to add a new column named Gender to the Customers table.
+10- Write an SQL query to rename the Customer_Name column to Full_Name.
+11- Write an SQL query to remove the Gender column from the Customers table.
+12- Write an SQL query to remove all records from the Customers table while keeping the table structure.
+13- Write an SQL query to permanently delete the Customers table.
+14- Write an SQL query to create a Customers table where Customer_ID is the PRIMARY KEY.
+15- Write an SQL query to create a Customers table where Email must contain UNIQUE values.
+16- Write an SQL query to create a Customers table where Customer_Name cannot contain NULL values.
+17- Write an SQL query to create a Customers table where Age must be greater than or equal to 18.
+18- Write an SQL query to create a `Customers table where the default value of City is Mumbai.
