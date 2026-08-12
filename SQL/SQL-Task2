@@ -1,0 +1,49 @@
+PRACTICAL TASK – DATA TYPES & CONSTRAINTS
+
+Create two tables: Courses and Students.
+
+-- Table 1: Students
+-- Create a Students table with the following columns:
+-- Student_ID
+-- Student_Name
+-- Email
+-- Phone
+-- Age
+-- Course_ID
+-- Enrollment_Date
+-- Marks
+-- Student_Status
+
+
+-- Table 2: Courses
+-- Create a Courses table with the following columns:
+-- Course_ID
+-- Course_Name
+-- Course_Fee
+
+-- Requirements:
+
+-- 1. Decide and apply an appropriate DATA TYPE for each column.
+-- 2. Apply appropriate CONSTRAINTS to maintain data accuracy.
+-- 3. Create a relationship between the Students and Courses tables.
+-- 4. Insert sample records into both tables.
+-- 5. Verify that the tables and constraints are working correctly.
+
+
+-- HINT:
+
+-- CONSTRAINTS:
+-- NOT NULL
+-- UNIQUE
+-- PRIMARY KEY
+-- FOREIGN KEY
+-- CHECK
+-- DEFAULT
+-- AUTO_INCREMENT
+
+-- DATA TYPES:
+-- INT
+-- CHAR
+-- VARCHAR
+-- DECIMAL
+-- DATE
