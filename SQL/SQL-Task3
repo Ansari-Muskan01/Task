@@ -12,32 +12,19 @@
 --    Account_Balance
 --    Registration_Date
 
--- 4. Add a new column Customer_Status to the Customers table with CHAR datatype.
+-- 4. Add a new column named Customer_Status to the Customers table with the CHAR datatype.
 -- 5. Modify the datatype of Customer_Status from CHAR to VARCHAR(20).
 -- 6. Rename the Customers table to Customer_Details.
--- 7. Remove the Customer_Status column.
+-- 7. Remove the Customer_Status column from the Customer_Details table.
 -- 8. Insert 5 new customer records into the Customer_Details table.
--- 9. Update the Account_Balance of Customer_ID = 5.
--- 10. Change the City of Customer_ID = 10 to 'Mumbai'.
--- 11. Update the Gender of a customer where Customer_ID = 10.
--- 12. Increase the Account_Balance by 5000 for customers from Mumbai.
--- 13. Delete the customer whose Customer_ID = 2.
+-- 9. Update the Account_Balance of the customer whose Customer_ID is 5.
+-- 10. Change the City of the customer whose Customer_ID is 10 to 'Mumbai'.
+-- 11. Update the Gender of the customer whose Customer_ID is 10.
+-- 12. Increase the Account_Balance by 5000 for all customers from Mumbai.
+-- 13. Delete the customer whose Customer_ID is 2.
 -- 14. Delete all customers whose Account_Balance is less than 30000.
--- 15. Delete the Customer_Details table permanently.
--- 16. Delete Database permanently.
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- 15. Permanently delete the Customer_Details table.
+-- 16. Permanently delete the BankingDB database.
 
 
 -- Create Customer Table
