@@ -24,6 +24,7 @@
 -- 13. Delete the customer whose Customer_ID = 2.
 -- 14. Delete all customers whose Account_Balance is less than 30000.
 -- 15. Delete the Customer_Details table permanently.
+-- 16. Delete Database permanently.
 
 
 
