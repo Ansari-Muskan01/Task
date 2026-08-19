@@ -72,10 +72,98 @@ VALUES
 
 
 
-
--- Basic SELECT
+A. Basic SELECT and WHERE
 -- 1. Display all records from the Customers table.
 -- 2. Display only Customer_Name, City, and Age.
--- 3. Display all customers who live in Mumbai.
--- 4. Display customers whose age is greater than 30.
--- 5. Display customers whose Account_Balance is greater than ₹50,000.
+-- 3. Display customers who live in Mumbai.
+-- 4. Display customers whose Age is greater than 30.
+-- 5. Display customers whose Account_Balance is greater than 50000.
+-- 6. Display customers whose Age is less than 25.
+-- 7. Display customers whose Age is greater than or equal to 35.
+-- 8. Display customers whose Account_Balance is less than or equal to 40000.
+-- 9. Display the customer whose Customer_ID is equal to 10.
+-- 10. Display customers whose Age is not equal to 30.
+
+B. Comparison Operators
+-- 11. Find customers whose Age > 30.
+-- 12. Find customers whose Age < 30.
+-- 13. Find customers whose Age >= 35.
+-- 14. Find customers whose Age <= 25.
+-- 15. Find customers whose City = 'Mumbai'.
+-- 16. Find customers whose Age != 30.
+-- 17. Find customers whose Account_Balance > 75000.
+-- 18. Find customers whose Account_Balance <= 50000.
+
+C. Logical Operators – AND
+-- 19. Display customers who live in Mumbai AND are older than 25.
+-- 20. Display customers whose Age is greater than 30 AND Account_Balance is greater than 70000.
+-- 21. Display customers who are Female AND live in Delhi.
+-- 22. Display customers who live in Pune AND have Account_Balance greater than 40000.
+
+D. Logical Operator – OR
+-- 23. Display customers who live in Mumbai OR Delhi.
+-- 24. Display customers whose Age is less than 25 OR greater than 40.
+-- 25. Display customers who live in Pune OR Bangalore.
+-- 26. Display customers whose Account_Balance is greater than 100000 OR Age is greater than 40.
+
+E. Logical Operator – NOT
+-- 27. Display customers who are NOT from Mumbai.
+-- 28. Display customers whose Age is NOT 30.
+-- 29. Display customers who are NOT Female.
+-- 30. Display customers whose City is NOT Delhi.
+
+F. BETWEEN
+-- 31. Display customers whose Age is between 25 and 35.
+-- 32. Display customers whose Account_Balance is between 40000 and 70000.
+-- 33. Display customers whose Registration_Date is between '2025-03-01' and '2025-06-30'.
+-- 34. Display customers whose Age is NOT between 25 and 35.
+
+G. LIKE
+-- 35. Display customers whose name starts with 'A'.
+-- 36. Display customers whose name ends with 'a'.
+-- 37. Display customers whose name contains 'an'.
+-- 38. Display customers whose name has 'sh' anywhere.
+-- 39. Display customers whose name starts with 'M' and has any number of characters after M.
+-- 40. Display customers whose name has exactly 5 characters.
+-- 41. Display customers whose name starts with 'A' followed by exactly one character.
+-- 42. Display customers whose name starts with 'A' followed by exactly two characters.
+-- 43. Display customers whose city starts with 'M'.
+-- 44. Display customers whose email ends with '@gmail.com'.
+
+H. IS NULL / IS NOT NULL
+-- 45. Display customers whose Phone number is NULL.
+-- 46. Display customers whose Phone number is NOT NULL.
+-- 47. Display customers whose Registration_Date is NOT NULL.
+-- 48. Display customers whose Gender is NULL.
+
+I. DISTINCT
+-- 49. Display all unique cities.
+-- 50. Display all unique genders.
+-- 51. Display all unique ages.
+-- 52. Display unique combinations of City and Gender.
+
+J. Aggregate Functions
+-- 53. Find the total number of customers.
+-- 54. Find the total Account_Balance of all customers.
+-- 55. Find the average Account_Balance.
+-- 56. Find the minimum Account_Balance.
+-- 57. Find the maximum Account_Balance.
+-- 58. Find the total number of Male customers.
+-- 59. Find the total number of Female customers.
+-- 60. Find the average Age of all customers.
+
+K. GROUP BY
+-- 61. Find the number of customers in each City.
+-- 62. Find the total Account_Balance for each City.
+-- 63. Find the average Account_Balance for each City.
+-- 64. Find the maximum Account_Balance in each City.
+-- 65. Find the minimum Account_Balance in each City.
+-- 66. Find the number of customers in each Gender.
+-- 67. Find the average Age for each Gender.
+-- 68. Find the total Account_Balance for each Gender.
+
+L. GROUP BY + HAVING
+-- 69. Display cities having more than 3 customers.
+-- 70. Display cities where the total Account_Balance is greater than 200000.
+-- 71. Display cities where the average Account_Balance is greater than 60000.
+-- 72. Display genders having more than 20 customers.
