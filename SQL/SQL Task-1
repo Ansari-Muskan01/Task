@@ -32,23 +32,3 @@ Section A – Theory Questions
 29- What is the difference between PRIMARY KEY and UNIQUE KEY?
 
 
-Section B – SQL Practical Questions
-
-1- Write an SQL query to create a database named CustomerDB.
-2- Write an SQL query to select the CustomerDB database.
-3- Write an SQL query to create a Customers table with the following columns: Customer_ID, Customer_Name, Email, Phone, City, and Age. Apply appropriate data types and constraints to the columns.
-4- Write SQL queries to insert at least 5 records into the Customers table.
-5- Write an SQL query to display all records from the Customers table.
-6- Write an SQL query to display only the Customer_Name, Email, and City columns from the Customers table.
-7- Write an SQL query to update the city of a customer using Customer_ID.
-8- Write an SQL query to delete a customer using Customer_ID.
-9- Write an SQL query to add a new column named Gender to the Customers table.
-10- Write an SQL query to rename the Customer_Name column to Full_Name.
-11- Write an SQL query to remove the Gender column from the Customers table.
-12- Write an SQL query to remove all records from the Customers table while keeping the table structure.
-13- Write an SQL query to permanently delete the Customers table.
-14- Write an SQL query to create a Customers table where Customer_ID is the PRIMARY KEY.
-15- Write an SQL query to create a Customers table where Email must contain UNIQUE values.
-16- Write an SQL query to create a Customers table where Customer_Name cannot contain NULL values.
-17- Write an SQL query to create a Customers table where Age must be greater than or equal to 18.
-18- Write an SQL query to create a `Customers table where the default value of City is Mumbai.
