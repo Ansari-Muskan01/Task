@@ -1,3 +1,44 @@
+-- 1. Create a database named BankingDB.
+-- 2. Select/Use the BankingDB database.
+
+-- 3. Create a Customers table with the following columns:
+--    Customer_ID
+--    Customer_Name
+--    Email
+--    Phone
+--    City
+--    Age
+--    Gender
+--    Account_Balance
+--    Registration_Date
+
+-- 4. Add a new column Customer_Status to the Customers table with CHAR datatype.
+-- 5. Modify the datatype of Customer_Status from CHAR to VARCHAR(20).
+-- 6. Rename the Customers table to Customer_Details.
+-- 7. Remove the Customer_Status column.
+-- 8. Insert 5 new customer records into the Customer_Details table.
+-- 9. Update the Account_Balance of Customer_ID = 5.
+-- 10. Change the City of Customer_ID = 10 to 'Mumbai'.
+-- 11. Update the Gender of a customer where Customer_ID = 10.
+-- 12. Increase the Account_Balance by 5000 for customers from Mumbai.
+-- 13. Delete the customer whose Customer_ID = 2.
+-- 14. Delete all customers whose Account_Balance is less than 30000.
+-- 15. Delete the Customer_Details table permanently.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Create Customer Table
 CREATE TABLE Customers (
     Customer_ID INT PRIMARY KEY AUTO_INCREMENT,
