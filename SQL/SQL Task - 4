@@ -1,0 +1,126 @@
+use sample ; 
+select * from `demart data` ; 
+
+
+-- Create a new column named Month_Name and store the month name extract from order_date.
+
+-- Create a new column named Discount_Amount and calculate a 10% discount on the Sales amount.
+-- Hint: Discount_Amount = sales * 10%
+
+-- Create a new column named Net_Revenue and calculate Net Revenue after applying a 10% discount on Sales.
+-- Hint: Net_Revenue = sales - Discount_Amount
+
+-- Display all records from the Orders table.
+
+-- Display only order_id, category, sales, and profit.
+
+-- Display all unique regions.
+
+-- Display all unique categories.
+
+-- Display all unique payment modes.
+
+-- Display all unique customer types.
+
+-- Display order_id, sales, and profit with appropriate aliases.
+
+-- Display orders where the region is East.
+
+-- Display orders where the category is Electronics.
+
+-- Display orders where sales are greater than 3000.
+
+-- Display orders where profit is greater than 500.
+
+-- Display orders where quantity is greater than 5.
+
+-- Display orders where discount is greater than 20%.
+
+-- Display orders where payment mode is UPI.
+
+-- Display orders where customer type is Member.
+
+-- Display orders from the East region where sales are greater than 2000.
+
+-- Display orders where category is Clothing OR Grocery.
+
+-- Display orders where payment mode is UPI AND customer type is Member.
+
+-- Display orders where sales are greater than 3000 AND profit is greater than 500.
+
+-- Display orders that are NOT from the East region.
+
+-- Display orders where sales are between 1000 and 3000.
+
+-- Display orders where quantity is between 3 and 6.
+
+-- Display orders from East, West, and North regions.
+
+-- Find customers whose city starts with M.
+
+-- Find cities ending with i.
+
+-- Display all orders sorted by sales from highest to lowest.
+
+-- Display all orders sorted by profit from lowest to highest.
+
+-- Display orders first by region and then by sales in descending order.
+ 
+-- Display the top 5 orders based on sales.
+
+-- Find the total profit.
+
+-- Find the total quantity sold.
+
+-- Find the average sales amount.
+
+-- Find the maximum sales amount.
+
+-- Find the minimum sales amount.
+
+-- Count the total number of orders.
+
+-- Find total sales by region.
+
+-- Find total profit by region.
+
+-- Find total sales by category.
+
+-- Find total quantity sold by category.
+
+-- Find number of orders by customer type.
+
+-- Find total sales by payment mode.
+
+-- Find total profit by city.
+
+-- Find average discount by category.
+
+-- Display total sales by month.
+
+-- Display customer types having more than 3 orders.
+
+-- Categorize orders based on sales:
+-- Sales >= 4000 → High
+-- Sales >= 2000 → Medium
+-- Otherwise → Low
+
+-- Categorize profit:
+-- Profit >= 800 → High Profit
+-- Profit >= 400 → Medium Profit
+-- Otherwise → Low Profit
+
+-- Categorize discount:
+-- Discount >= 30% → High Discount
+-- Discount >= 15% → Medium Discount
+-- Otherwise → Low Discount
+
+-- Categorize customers:
+-- Member → Premium Customer
+-- Regular → Regular Customer
+-- New → New Customer
+
+-- Categorize orders based on quantity:
+-- Quantity >= 6 → Bulk Order
+-- Quantity >= 3 → Medium Order
+-- Otherwise → Small Order
