@@ -63,11 +63,11 @@ Age ≥ 25 → "Adult"<br>
 
 Age Category = IF(Sales[Age] < 25,  "Young", "Adult" )<br>
 
-19. Create a calculated column named Age Group using SWITCH.
-Classify customers as:
-Age below 25 → "Young"
-Age from 25 to 45 → "Adult"
-Age above 45 → "Senior"
+19. Create a calculated column named Age Group using SWITCH.<br>
+Classify customers as:<br>
+Age below 25 → "Young"<br>
+Age from 25 to 45 → "Adult"<br>
+Age above 45 → "Senior"<br>
 
 Age Group =
 SWITCH(
@@ -78,8 +78,7 @@ SWITCH(
 )
 
 20. Create a measure to calculate the total quantity sold for customers whose Age is greater than 50 using FILTER.<br>
-Quantity Sold Above 50 = CALCULATE(SUM(Sales[Qty]),
-    FILTER(Sales,Sales[Age] > 50))
+Quantity Sold Above 50 = CALCULATE(SUM(Sales[Qty]),FILTER(Sales,Sales[Age] > 50))<br>
 
 Using CALCULATE and FILTER, calculate the total sales for Delivered orders where Amount is greater than ₹500<br>
 
