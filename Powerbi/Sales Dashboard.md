@@ -57,7 +57,7 @@ Female Customers = CALCULATE(COUNTROWS(Sales), Sales[Gender] = "Women" )<br>
 17. Create a measure to calculate the total sales amount for Delivered orders only.<br>
 Delivered Sales = CALCULATE( [Total Sales], Sales[Status] = "Delivered")<br>
 
-18. Create a calculated column named Age Group using IF.
+18. Create a calculated column named Age Group using IF.<br>
 Age < 25 → "Young"
 Age ≥ 25 → "Adult"<br>
 
