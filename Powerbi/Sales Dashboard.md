@@ -80,7 +80,7 @@ SWITCH(
 20. Create a measure to calculate the total quantity sold for customers whose Age is greater than 50 using FILTER.<br>
 Quantity Sold Above 50 = CALCULATE(SUM(Sales[Qty]),FILTER(Sales,Sales[Age] > 50))<br>
 
-Using CALCULATE and FILTER, calculate the total sales for Delivered orders where Amount is greater than ₹500<br>
+21. Using CALCULATE and FILTER, calculate the total sales for Delivered orders where Amount is greater than ₹500<br>
 
 Delivered Sales Above 500 =
 CALCULATE(SUM(Sales[Amount]),
