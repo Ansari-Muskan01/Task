@@ -1,15 +1,15 @@
 **Part 1 — Data Preparation**
 
-Before creating visuals:
-Check the data types of all columns.
-Convert Date into Date data type.
-Convert Age into Whole Number.
-Convert Amount into Whole Number/Decimal Number.
-Convert Qty into a numeric column.
-Replace One with 1 and Two With 2.
-Check the values in Gender.
-For example: Women and W should be standardized if they represent the same gender.
-Check for blank values and duplicate records.
+Before creating visuals:<br>
+Check the data types of all columns.<br>
+Convert Date into Date data type.<br>
+Convert Age into Whole Number.<br>
+Convert Amount into Whole Number/Decimal Number.<br>
+Convert Qty into a numeric column.<br>
+Replace One with 1 and Two With 2.<br>
+Check the values in Gender.<br>
+For example: Women and W should be standardized if they represent the same gender.<br>
+Check for blank values and duplicate records.<br>
 
 
 **Part 2 — Create Charts**
