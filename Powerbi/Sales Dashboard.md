@@ -7,8 +7,7 @@ Convert Age into Whole Number.<br>
 Convert Amount into Whole Number/Decimal Number.<br>
 Convert Qty into a numeric column.<br>
 Replace One with 1 and Two With 2.<br>
-Check the values in Gender.<br>
-For example: Women and W should be standardized if they represent the same gender.<br>
+Check the values in Gender.(Hint: For example: Women and W should be standardized if they represent the same gender.)<br>
 Check for blank values and duplicate records.<br>
 
 
