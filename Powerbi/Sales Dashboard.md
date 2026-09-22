@@ -28,7 +28,7 @@ Check for blank values and duplicate records.<br>
 **Part 3 — Create DAX Measures**
 
 1. Total Sales
-Total Sales = SUM(Sales[Amount])
+Total Sales = SUM(Sales[Amount])<br>
 
 2. Total Quantity
 Total Quantity = SUM(Sales[Qty])
