@@ -27,41 +27,41 @@ Check for blank values and duplicate records.<br>
 
 **Part 3 — Create DAX Measures**
 
-1. Total Sales
+1. Total Sales<br>
 Total Sales = SUM(Sales[Amount])<br>
 
-2. Total Quantity
-Total Quantity = SUM(Sales[Qty])
+2. Total Quantity<br>
+Total Quantity = SUM(Sales[Qty])<br>
 
-5. Total Orders
-Total Orders = DISTINCTCOUNT(Sales[Order ID])
+5. Total Orders<br>
+Total Orders = DISTINCTCOUNT(Sales[Order ID])<br>
 
-7. Total Customers
-Total Customers = DISTINCTCOUNT(Sales[Cust ID])
+7. Total Customers<br>
+Total Customers = DISTINCTCOUNT(Sales[Cust ID])<br>
 
-9. Average Order Value
-Average Order Value = DIVIDE([Total Sales], [Total Orders])
+9. Average Order Value<br>
+Average Order Value = DIVIDE([Total Sales], [Total Orders])<br>
 
-11. Maximum Order Amount
-Maximum Order Amount = MAX(Sales[Amount])
+11. Maximum Order Amount<br>
+Maximum Order Amount = MAX(Sales[Amount])<br>
 
-13. Minimum Order Amount
-Minimum Order Amount = MIN(Sales[Amount])
+13. Minimum Order Amount<br>
+Minimum Order Amount = MIN(Sales[Amount])<br>
 
-14. Male Customer Count
-Male Customers = CALCULATE(COUNTROWS(Sales),Sales[Gender] = "Men")
+14. Male Customer Count<br>
+Male Customers = CALCULATE(COUNTROWS(Sales),Sales[Gender] = "Men")<br>
 
-16. Female Customer Count
-Female Customers = CALCULATE(COUNTROWS(Sales), Sales[Gender] = "Women" )
+16. Female Customer Count<br>
+Female Customers = CALCULATE(COUNTROWS(Sales), Sales[Gender] = "Women" )<br>
 
-17. Create a measure to calculate the total sales amount for Delivered orders only.
-Delivered Sales = CALCULATE( [Total Sales], Sales[Status] = "Delivered")
+17. Create a measure to calculate the total sales amount for Delivered orders only.<br>
+Delivered Sales = CALCULATE( [Total Sales], Sales[Status] = "Delivered")<br>
 
 18. Create a calculated column named Age Group using IF.
 Age < 25 → "Young"
-Age ≥ 25 → "Adult"
+Age ≥ 25 → "Adult"<br>
 
-Age Category = IF(Sales[Age] < 25,  "Young", "Adult" )
+Age Category = IF(Sales[Age] < 25,  "Young", "Adult" )<br>
 
 19. Create a calculated column named Age Group using SWITCH.
 Classify customers as:
@@ -77,11 +77,11 @@ SWITCH(
     "Senior"
 )
 
-20. Create a measure to calculate the total quantity sold for customers whose Age is greater than 50 using FILTER.
+20. Create a measure to calculate the total quantity sold for customers whose Age is greater than 50 using FILTER.<br>
 Quantity Sold Above 50 = CALCULATE(SUM(Sales[Qty]),
     FILTER(Sales,Sales[Age] > 50))
 
-Using CALCULATE and FILTER, calculate the total sales for Delivered orders where Amount is greater than ₹500
+Using CALCULATE and FILTER, calculate the total sales for Delivered orders where Amount is greater than ₹500<br>
 
 Delivered Sales Above 500 =
 CALCULATE(SUM(Sales[Amount]),
@@ -89,7 +89,7 @@ CALCULATE(SUM(Sales[Amount]),
     )
 )
 
-Question : Create a calculated column named Channel Type using Nested IF and SWITCH.
+Question : Create a calculated column named Channel Type using Nested IF and SWITCH.<br>
 
 Amazon → "Marketplace"
 Flipkart → "Marketplace"
