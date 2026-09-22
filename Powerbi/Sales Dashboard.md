@@ -90,13 +90,13 @@ CALCULATE(SUM(Sales[Amount]),
 
 Question : Create a calculated column named Channel Type using Nested IF and SWITCH.<br>
 
-Amazon → "Marketplace"
-Flipkart → "Marketplace"
-Myntra → "Fashion Platform"
-Ajio → "Fashion Platform"
-Meesho → "Marketplace"
-Others → "Other"
+Amazon → "Marketplace"<br>
+Flipkart → "Marketplace"<br>
+Myntra → "Fashion Platform"<br>
+Ajio → "Fashion Platform"<br>
+Meesho → "Marketplace"<br>
+Others → "Other"<br>
 
-Task:
-Create Channel_Type using Nested IF.
-Create Channel_Type1 using SWITCH.
+Task:<br>
+Create Channel_Type using Nested IF.<br>
+Create Channel_Type1 using SWITCH.<br>
