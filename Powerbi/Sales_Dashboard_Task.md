@@ -10,89 +10,89 @@ Dashboard Requirements
 
 Create KPI cards for:
 
-Total Sales
-Total Profit
-Total Quantity
-Total Orders
-Average Order Value
-Profit Margin %
-2. Sales Analysis
+Total Sales<br>
+Total Profit<br>
+Total Quantity<br>
+Total Orders<br>
+Average Order Value<br>
+Profit Margin %<br>
+
+**2. Sales Analysis**
+
+Create visuals to show:<br>
+Sales by Year<br>
+Sales by Month<br>
+Sales by Category<br>
+Sales by Sub-Category<br>
+Sales by Brand<br>
+3. Profit Analysis<br>
 
 **Create visuals to show:**
 
-Sales by Year
-Sales by Month
-Sales by Category
-Sales by Sub-Category
-Sales by Brand
-3. Profit Analysis
+Profit by Category<br>
+Profit by Sub-Category<br>
+Profit by Region<br>
+Profit by Year<br>
+4. Customer Analysis<br>
 
 **Create visuals to show:**
 
-Profit by Category
-Profit by Sub-Category
-Profit by Region
-Profit by Year
-4. Customer Analysis
+Sales by Customer Segment<br>
+Sales by Gender<br>
+Sales by Loyalty Status<br>
+Customers by Age Group<br>
+5. Product Analysis<br>
 
 **Create visuals to show:**
 
-Sales by Customer Segment
-Sales by Gender
-Sales by Loyalty Status
-Customers by Age Group
-5. Product Analysis
+Top 10 Products by Sales<br>
+Top 10 Products by Profit<br>
+Quantity Sold by Category<br>
+6. Regional Analysis<br>
 
 **Create visuals to show:**
 
-Top 10 Products by Sales
-Top 10 Products by Profit
-Quantity Sold by Category
-6. Regional Analysis
+Sales by Region<br>
+Sales by State<br>
+Sales by City<br>
+Profit by Zone<br>
+7. Order Analysis<br>
 
 **Create visuals to show:**
 
-Sales by Region
-Sales by State
-Sales by City
-Profit by Zone
-7. Order Analysis
-
-**Create visuals to show:**
-
-Sales by Order Priority
-Average Delivery Days by Region
-Sales by Financial Year
-8. Additional Analysis
+Sales by Order Priority<br>
+Average Delivery Days by Region<br>
+Sales by Financial Year<br>
+8. Additional Analysis<br>
 
 **Create visuals to analyze:**
 
-Discount vs Profit
-Shipping Cost vs Sales
-DAX Requirements
+Discount vs Profit<br>
+Shipping Cost vs Sales<br>
+DAX Requirements<br>
 
 **Create appropriate DAX measures for the dashboard, such as:**
 
-Total Sales
-Total Profit
-Total Quantity
-Total Orders
-Average Order Value
-Profit Margin %
-Average Delivery Days
+Total Sales<br>
+Total Profit<br>
+Total Quantity<br>
+Total Orders<br>
+Average Order Value<br>
+Profit Margin %<br>
+Average Delivery Days<br>
 
-Use appropriate DAX functions wherever required.
+Use appropriate DAX functions wherever required.<br>
 
 **Slicers**
-Add suitable slicers to make the dashboard interactive.
+Add suitable slicers to make the dashboard interactive.<br>
 
 
 **Dashboard Design**
 
-Give the dashboard a proper title: Sales Dashboard
-Use suitable visualizations for each analysis.
-Keep the dashboard clean and easy to understand.
-Use proper chart titles.
-Maintain consistent formatting.
-Ensure all slicers work correctly.
-Avoid unnecessary visuals.
+Give the dashboard a proper title: Sales Dashboard<br>
+Use suitable visualizations for each analysis.<br>
+Keep the dashboard clean and easy to understand.<br>
+Use proper chart titles.<br>
+Maintain consistent formatting.<br>
+Ensure all slicers work correctly.<br>
+Avoid unnecessary visuals.<br>
