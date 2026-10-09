@@ -74,5 +74,5 @@ The dashboard can help analyze:
 * Order priority, shipping costs, and delivery time.
 * Products and regions generating higher or lower profits.
 
-**Note:** Before building the dashboard, verify that IDs match across tables and confirm how Sales, Cost_Price, Selling_Price, Profit, and Discount are calculated. This helps avoid incorrect results in Power BI.
+
 
