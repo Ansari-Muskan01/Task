@@ -46,23 +46,12 @@ Create the required calculated columns and measures using DAX.
 10. Calculate the Delivery Rate as a percentage of total orders.
 
 ### B. Calculated Columns
-
-11. Create a new column by combining `Order ID` and `Category`.
-12. Extract the year from the `Date` column.
-13. Extract the month number from the `Date` column.
-14. Extract the month name from the `Date` column.
 15. Create an age group column using the `Age` column.
-16. Create a column that classifies orders as B2B or B2C using the `B2B` column.
+
 
 ### C. Advanced Measures
 
-17. Calculate Total Sales for the Amazon channel.
-18. Calculate Total Sales for the Myntra channel.
-19. Calculate the percentage contribution of each channel to total sales.
-21. Calculate the percentage of orders by status.
-23. Calculate the average sales amount by category.
-24. Calculate the sales difference between the selected month and the previous month.
-25. Calculate the percentage change in monthly sales compared with the previous month.
+
 
 ## 3. Dashboard and Visualization Questions
 
