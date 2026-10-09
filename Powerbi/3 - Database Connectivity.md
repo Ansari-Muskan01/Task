@@ -12,7 +12,7 @@ Create an end-to-end banking analytics project using the MySQL database created 
 4. Create an interactive, multi-page Power BI dashboard.
 5. Use appropriate charts, graphs, tables, matrices, cards, maps, and other available Power BI visuals.
 6. Create and use DAX measures and calculated columns wherever required.
-7. Implement slicers, filters, conditional formatting, and other relevant Power BI features.
+7. Implement slicers, filters and other relevant Power BI features.
 8. Implement report tooltips to display additional information.
 9. Implement drill-down functionality for hierarchical data analysis.
 10. Implement drill-through functionality for detailed analysis.
